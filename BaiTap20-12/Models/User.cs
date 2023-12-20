@@ -16,5 +16,21 @@ namespace BaiTap20_12.Models
 			set { id = value; }
 		}
 
+		private String email;
+
+		public String Email
+		{
+			get { return email; }
+			set { email = value; }
+		}
+		private DateTime birthDay;
+
+		public DateTime BirthDay
+		{
+			get { return birthDay; }
+			set { birthDay = value; }
+		}
+
+
 	}
 }
