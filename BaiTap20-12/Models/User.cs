@@ -24,11 +24,7 @@ namespace BaiTap20_12.Models
 		}
 		private DateTime birthDay;
 
-		public DateTime BirthDay
-		{
-			get { return birthDay; }
-			set { birthDay = value; }
-		}
+		
 
 		private String email;
 
@@ -37,13 +33,7 @@ namespace BaiTap20_12.Models
 			get { return email; }
 			set { email = value; }
 		}
-		private DateTime birthDay;
 
-		public DateTime BirthDay
-		{
-			get { return birthDay; }
-			set { birthDay = value; }
-		}
 
 
 	}
